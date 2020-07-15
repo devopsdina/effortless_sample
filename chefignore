@@ -101,6 +101,9 @@ Gemfile.lock
 Policyfile.rb
 Policyfile.lock.json
 
+# Hab #
+results/*
+
 # Documentation #
 #############
 CODE_OF_CONDUCT*
