@@ -8,6 +8,10 @@ The code in `habitat/plan.sh` has been modified to allow my custom `dm_client.rb
 
 ## How to use
 
+### Assumptions
+
+The steps [here](https://www.habitat.sh/docs/using-builder/) have been completed if pushing the hab package to builder.
+
 **note: These steps have been verified on a Mac only**
 
 build the effortless package from the directory
