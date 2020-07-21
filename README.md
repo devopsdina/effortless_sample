@@ -10,6 +10,8 @@ The code in `habitat/plan.sh` has been modified to allow my custom `dm_client.rb
 
 The steps [here](https://www.habitat.sh/docs/using-builder/) have been completed if pushing the hab package to builder.
 
+The values already specified in the effortless [client-config](https://github.com/chef/effortless/blob/master/scaffolding-chef-infra/lib/linux/client-chunk.rb) are not duplicated.  To override the existing configuration items, set them in the `plan.sh`
+
 ## How to use
 
 **Note: These steps have been verified on a Mac only**
