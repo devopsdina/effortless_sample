@@ -1,6 +1,6 @@
 # effortless_sample
 
-This is an example of updating the chef-client.rb when using the effortless pattern.  There is no logic executed in this cookbook.  There could be logic, but for the purposes of this sample code, there is not.
+This is an example of updating the chef-client.rb when using the effortless pattern.  There is no logic executed in this cookbook as we are testing a habitat package.
 
 ## What it does
 
