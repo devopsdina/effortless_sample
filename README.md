@@ -16,7 +16,7 @@ The steps [here](https://www.habitat.sh/docs/using-builder/) have been completed
 
 build the effortless package from the directory
 
-- `hab pkg bld .`
+- `hab pkg build .`
 
 Run test kitchen
 
