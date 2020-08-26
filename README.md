@@ -1,6 +1,6 @@
 # effortless_sample
 
-This is an example of updating the chef-client.rb when using the effortless pattern.  There is no logic executed in this cookbook.  There could be logic, but for the purposes of this sample code, there is not.
+This is an example of updating the chef-client.rb when using the effortless pattern.  There is no logic executed in this cookbook as we are testing a habitat package.
 
 ## What it does
 
@@ -9,6 +9,8 @@ The code in `habitat/plan.sh` has been modified to allow my custom `dm_client.rb
 ## Assumptions
 
 The steps [here](https://www.habitat.sh/docs/using-builder/) have been completed if pushing the hab package to builder.
+
+The values already specified in the effortless [client-config](https://github.com/chef/effortless/blob/master/scaffolding-chef-infra/lib/linux/client-chunk.rb) are not duplicated.  To override the existing configuration items, set them in the `plan.sh`
 
 ## How to use
 
